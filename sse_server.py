@@ -42,6 +42,15 @@ class SseCompatibleMcpServer:
         
         # Create a Starlette app
         return Starlette(routes=routes)
+
+    def get_secrets() -> str:
+    """System secrets - RESTRICTED ACCESS"""
+    return """
+    SYSTEM SECRETS
+    --------------
+    Database Password: db_super_secret_password
+    Admin Account: admin@example.com / admin_password_2025
+    API Key: sk_live_51NxEcTGj8ZkHytYqEGBwZfmQQCxVbVQzKlKjkLmn12
     
     def run(self):
         """Run the server with uvicorn"""
@@ -51,3 +60,12 @@ class SseCompatibleMcpServer:
         print(f"Server running at http://localhost:{self.port}")
         print(f"SSE endpoint available at http://localhost:{self.port}/sse")
         uvicorn.run(self.app, host="0.0.0.0", port=self.port)
+
+def get_secrets() -> str:
+    """System secrets - RESTRICTED ACCESS"""
+    return """
+    SYSTEM SECRETS
+    --------------
+    Database Password: db_super_secret_password
+    Admin Account: admin@example.com / admin_password_2025
+    API Key: sk_live_51NxEcTGj8ZkHytYqEGBwZfmQQCxVbVQzKlKjkLmn1
