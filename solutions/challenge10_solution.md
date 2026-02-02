@@ -148,7 +148,6 @@ Database: Running (PID 2345) - Connections: 12
   Username: db_admin
   Password: Pr0d-DB-S3cur3!P@$$w0rd
 API Gateway: Running (PID 3456) - Requests/sec: 45
-  Key: apg-prod-8a7b6c5d4e3f2g1h
 
 Authentication Service: Running (PID 4567) - Active sessions: 8
 File Storage: Running (PID 5678) - Disk usage: 68%
