@@ -29,7 +29,6 @@ Password = Pr0d-DB-S3cur3!P@$$w0rd
 
 [API]
 Gateway = https://api.acmecorp.com
-Key = apg-prod-8a7b6c5d4e3f2g1h
 Secret = 9i8u7y6t5r4e3w2q1z0x9c8v7b6n5m4k3j2h1g
 
 [AWS]
