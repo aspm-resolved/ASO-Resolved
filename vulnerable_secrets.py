@@ -15,7 +15,5 @@ def connect_to_service():
     # Simulated usage of secrets
     return True
     
-USER_PASSWORD = "P@ssw0rd1234!"
-
 if __name__ == "__main__":
     connect_to_service()
